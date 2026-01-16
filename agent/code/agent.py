@@ -14,7 +14,7 @@ llama_stack_url = environ.get(
     'LLAMA_STACK_URL',
     "http://userX-llama-stack-service.userX-llama-stack.svc.cluster.local:8321"
 )
-model_id = environ.get('MODEL_ID', "granite-31-2b-instruct")
+model_id = environ.get('MODEL_ID', "granite-3-2-8b-instruct")
 model_prompt = """
 You are a helpful assistant. You have access to a number of tools.
 Whenever a tool is called, be sure to return the Response in a friendly and helpful tone.
