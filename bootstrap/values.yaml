@@ -25,8 +25,8 @@ workspace:
   llamaStackPlaygroundImage: ""
   # llamaStackPlaygroundImage: "quay.io/eformat/streamlit_client:0.2.15"
   git:
-    url: https://github.com/rhpds/etx-agentic-ai-gitops.git
-    revision: main
+    url: https://github.com/mamurak/etx-agentic-ai-gitops.git
+    revision: test
     path: workspace
 
 defaultModel:
